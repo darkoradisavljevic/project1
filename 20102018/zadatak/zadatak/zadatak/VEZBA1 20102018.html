@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>vezba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>Naslov</h1>
+<p>tekst</p>
+<p><input type="search" name="search" value="search"></p>
+<p>prvo pitanje</p>
+<p><input type="checkbox" name="prvi">prvi odgovor</p>
+<p><input type="checkbox" name="drugi">drugi odgovor</p>
+<p><input type="checkbox" name="treci">treci odgovor</p>
+<p><input type="checkbox" name="cetvrti">cetvrti odgovor</p>
+<p>unos podataka</p>
+<p><input type="text" name="name" required placeholder="Ime" minlength="2" maxlength="20"></p>
+<p><input type="text" name="prezime" required placeholder="Prezime" ></p>
+<p><input type="email"required value="email"></p>
+<p><input type="datetime-local" name="date" value=""></p>
+<p><input type="range" name="range" minlength="2" maxlength="20"></p>
+<p>drugo pitanje</p>
+<p><input type="radio" name="radio">prvi</p>
+<p><input type="radio" name="radio">drugi</p>
+<p><input type="radio" name="radio">treci</p>
+<p><input type="radio" name="radio">cetvrti</p>
+<p><input type="button" name="radio" value="SUBMIT"></p>
+<a href="../../../img1.jpg">slika</a><!--vraca folder ../-->
+
+<ol type="I" start="5"  reversed><!--liste reversed je da vraca unazad brojeve, uredjene su liste-->
+    <li>jedan</li>
+    <li>dva</li>
+    <li>tri</li>
+    <li>cetiri</li>
+
+</ol>
+<hr />
+<ul type="square">
+    <li>januar</li>
+    <li>februar</li>
+    <li>mart</li>
+    <li>april</li>
+
+</ul>
+<hr/>
+<dl>
+    <dt>prvi</dt>
+    <dd>drugi</dd>
+</dl>
+
+<ol>
+    <li>Povrce
+        <ul>
+            <li>krompir</li>
+            <li>kupus</li>
+            <li>sargarepa</li>
+            <li>luk</li>
+        </ul>
+    </li>
+    <li>Voce
+        <ul>
+                <li>jabuka</li>
+                <li>kruska</li>
+                <li>mandarina</li>
+        </ul>
+    </li>
+</ol>
+<select size="" autofocus multiple> <!--size pokazuje koliko hocemo da se pokazu elemenata u listi-->
+    <option>-------</option>
+    <option>prva</option>
+    <option>druga</option>
+    <option>treca</option>
+    <option>cetvrta</option>
+</select>
+
+<select name="pica">
+    <option>---</option>
+    <optgroup label="negazirana">
+        <option value="jabuka">jabuka</option>
+        <option value="kruska">kruska</option>
+        <option value="narandza">narandza</option>
+    </optgroup>
+    <optgroup label="gazirana">
+            <option value="kokakola">koka kola</option>
+            <option value="fanta">fanta</option>
+            <option value="sprite">sprite</option>
+    </optgroup>
+
+</select>
+
+</body>
+</html>
